@@ -1,8 +1,8 @@
-#Squares
+# Squares
 
 This plugin includes a squares module, where each square can define steps or categories in a sequence. When a square is clicked, a description appears, and the squares are displayed at half-size.
 
-##Initial setup
+## Initial setup
 
 1. _Dependencies:_ verify that the jQuery and Bootstrap are included in your project.
 2. Include **squares.js** in your JS directory.
@@ -10,7 +10,7 @@ This plugin includes a squares module, where each square can define steps or cat
 4. Include the HTML inside **squares.html** on your page.
 5. Run gulp, and your squares module will be up and running.
 
-##Working with HTML
+## Working with HTML
 
 Below is the basic HTML structure:
 
@@ -78,7 +78,7 @@ $('.squares').squares({
 });
 ```
 
-###Creating multiple versions
+### Creating multiple versions
 
 The squares module only works on the provided HTML base structure, which has the class `.squares`. If you want to target all squares modules on your site with the same settings, make sure to apply the function to `$('.squares')', like so:
 
